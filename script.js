@@ -14,3 +14,9 @@ const lists = document.querySelector("ul").children;
 console.log(lists[0].getAttribute("class"));
 
 console.log(lists.item(0).childNodes[0].data.trim());
+
+console.log(
+  Array.from(document.querySelector("body").children)[4].childNodes[1]
+);
+
+console.log(document.querySelector(".item").closest("body"));
